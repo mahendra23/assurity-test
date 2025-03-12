@@ -1,2 +1,0 @@
-# assurity-test
-Assurity interview 
