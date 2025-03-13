@@ -17,7 +17,9 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: lts/*
-
+      - name: Change Directory
+        run: cd jest-supertest
+        
       - name: Install dependencies
         run: npm install
 
