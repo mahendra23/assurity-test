@@ -28,6 +28,9 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-maven-
 
+    - name: Change Directory
+      run: cd Java-RestAssured-TestNG
+    
     - name: Install dependencies
       run: mvn install -DskipTests
 
