@@ -2,9 +2,11 @@ name: Java CI with RestAssured and TestNG
 
 on:
   push:
+    branches: master
     paths:
       - 'Java-RestAssured-TestNG/**'
   pull_request:
+    branches: master
     paths:
       - 'Java-RestAssured-TestNG/**'
 
