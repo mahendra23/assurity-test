@@ -3,3 +3,7 @@ target/
 
 # IntelliJ IDEA
 .idea/
+
+# TypeScript
+dist/
+node_modules/
