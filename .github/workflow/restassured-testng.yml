@@ -1,7 +1,7 @@
 name: Java CI with RestAssured and TestNG
 
 on:
-  pull_request:
+  push:
     paths:
       - 'Java-RestAssured-TestNG/**'
 
