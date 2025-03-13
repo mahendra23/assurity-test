@@ -8,7 +8,7 @@
   "keywords": [],
   "author": "Mahendra Pratap Singh",
   "license": "ISC",
-  "description": "APi testing project using jest typescript and supertest",
+  "description": "API testing project using jest typescript and supertest",
   "devDependencies": {
     "@jest/globals": "^29.7.0",
     "@types/jest": "^29.5.14",
