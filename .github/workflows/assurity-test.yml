@@ -1,0 +1,19 @@
+name: Run Node.js Tests
+
+on:
+  push:
+    branches: master
+  pull_request:
+    branches: master
+  workflow_call:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run Java Tests
+        uses: ./.github/workflows/restassured-testng.yml
+
+      - name: Run Jest Tests
+        uses: ./.github/workflows/jest-supertest.yml
