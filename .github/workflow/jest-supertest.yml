@@ -1,12 +1,7 @@
 name: Run Node.js Tests
 
 on:
-  push:
-    branches: master
-    paths:
-      - 'jest-supertest/**'
   pull_request:
-    branches: master
     paths:
       - 'jest-supertest/**'
 
